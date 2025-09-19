@@ -24,22 +24,5 @@ int main(){
     cin.tie(NULL);
     ll t;
     cin>>t;
-    while(t--){
-        ll n;
-        cin>>n;
-        ll arr[n];
-        ll maxind= 0;
-        for(ll i=0;i<n;i++) {
-            cin>>arr[i];
-        }
-        ll res= INT_MIN;
-        
-        for(ll i=0;i+1<n;i++){
-            res= max(res, arr[i]* arr[i+1]);
-        }
-
-        cout<<res<<endl;
-
-
-    }
+    cout<<"Hellop";
 }
